@@ -1,0 +1,21 @@
+.dashboard-container {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "sidebar header header"
+    "sidebar main main";
+    grid-template-rows: 1fr 8fr;
+    grid-template-columns: 1fr 5fr;
+}
+.header-section {
+    grid-area: header;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.sidebar-section {
+    grid-area: sidebar;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.main-section {
+    grid-area: main;
+    padding: 30px;
+}

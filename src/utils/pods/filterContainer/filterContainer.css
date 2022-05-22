@@ -1,0 +1,48 @@
+.filter-container{
+    position: absolute;
+    width: 250px;
+    box-shadow: 0px 3px 6px #00000029;
+    background: #FFFFFF;
+    border-radius: 9px;
+    top: 16px;
+    right: 35px;
+    z-index: 10;
+}
+.filter-container header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.filter-container .filter-body{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    background: #F5F4FE 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 6px #0000000F;
+}
+.filter-container select{
+    box-shadow: 0px 2px 5px #26334D3B;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 0;
+}
+.filter-container select:focus{
+    outline: none;
+}
+.filter-container .btn-area{
+    display:flex;
+    justify-content: flex-end;
+    padding: 3px 15px 15px 15px;
+}
+.filter-container .btn-area .btn{
+    background: #5433FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 5px 10px;
+    color:#FFFFFF;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,14 @@
+.header-container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 10fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100%;
+    align-items: center;
+    padding: 25px;
+}
+.header-container .title{
+    color: #1D2121;
+    text-shadow: 0px 3px 6px #00000029;
+    font: normal normal normal 25px/20px Roboto;
+    text-transform: capitalize;
+}

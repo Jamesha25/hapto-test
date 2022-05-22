@@ -1,0 +1,44 @@
+.podscard-container{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    box-shadow: 0px 3px 6px #00000021;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.podscard-container header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.podscard-container header span label{
+    color: #1D2121;
+    font-size: 14px;
+}
+.podscard-container header span .bullet{
+    border-radius: 50%;
+    height: 9px;
+    display: inline-block;
+    margin-right: 15px;
+    width: 9px;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid;
+}
+.podscard-container .messege{
+    color: #1D2121;
+    font-size: 14px;
+}
+.podscard-container footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.podscard-container footer .btn{
+    box-shadow: 0px 1px 1px #00000021;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-transform: capitalize;
+}

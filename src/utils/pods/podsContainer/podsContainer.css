@@ -1,0 +1,46 @@
+.pods-container{
+    position: relative;
+}
+.pods-container header{
+    display: flex;
+    padding: 20px;
+    gap: 40px;
+    text-transform: capitalize;
+    align-items: center;
+}
+.pods-container header .menus{
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+.pods-container header .menus.active{
+    color: #8833FF;
+    font-weight: 600;
+}
+.pods-container header .menus .line{
+    border: solid;
+    position: absolute;
+    color: #8833FF;
+    bottom:-37px;
+    width: 110%;
+}
+.pods-container header .button-containers{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+.pods-container header .button-containers > div{
+    padding: 5px 15px;
+    color: #FFFFFF;
+    box-shadow: 0px 1px 1px #00000029;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pods-container .line{
+    width: 97%;
+    height: 2px;
+    background: #EDEFF2;
+    margin: auto;
+    margin-bottom: 10px;
+}
