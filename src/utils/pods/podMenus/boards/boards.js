@@ -103,9 +103,11 @@ function Boards() {
                 return(
                     <div className='column' key={ind}>
                         <div className='title' style={{borderLeft:`${item.color} solid 5px`}}>{item.type}</div>
-                        {item.works.map((task)=>{
+                        {item.works.map((task,ind)=>{
                             return(
-                                <PodsCard color={item.color} work={task}/>
+                                <div key={ind}>
+                                    <PodsCard color={item.color} work={task}/>
+                                </div>
                             );
                         })}
                         {item.type==="done" && 

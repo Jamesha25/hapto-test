@@ -8,7 +8,6 @@ function App() {
   const updateDimensions = () => {
     setWidth(window.innerWidth);
     setHeight(window.innerHeight);
-    console.log(window.innerWidth,window.innerHeight)
   }
   useEffect(() => {
     window.addEventListener("resize", updateDimensions);
